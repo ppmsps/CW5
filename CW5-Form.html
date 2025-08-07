@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><br><br>
+    <h1>ส่วนที่ 1:ข้อมูลส่วนตัวของผู้สมัคร</h1>
+    <form>
+        <select> 
+            <option value="1">คำนำหน้า</option>  
+            <option value="2">นาย</option>  
+            <option value="3">นางสาว</option>
+            <option value="4"> นาง</option>
+        </select>
+        ชื่อ <input type="text"placaholder = "ชื่อ">
+        นามสกุล <input type="text"placaholder = "นามสกุล"> <br><br>
+        เลขประจำตัวประชาชน (13 หลัก)<input type="text" maxlength="13"> <br><br>
+        วันเดือนปีเกิด <input type="date">
+        อายุ (ปี) <input type="number"><br><br>
+        เพศ
+            <input type="radio" name="p1">ชาย
+            <input type="radio" name="p1">หญิง
+            <input type="radio" name="p1">ไม่ระบุ <br><br>
+        สัญชาติ <input type="text"><br><br>
+        เชื้อชาติ <input type="text"><br><br>
+        ศาสนา <input type="text"> <br><br>
+        เบอร์โทรศัพท์ <input type="tel"><br><br>
+        อีเมล <input type="email"><br><br>
+        ที่อยู่ <textarea></textarea><br><br><br>
+    <h1>ส่วนที่ 2:ข้อมูลการสมัครเรียน</h1>
+        วุฒิที่จบมา<select> 
+                    <option value="1">ม.6</option>  
+                    <option value="2">ปวช</option>  
+                    <option value="3">ปวส</option>
+                </select>
+        ชื่อสถานศึกษาที่จบ<input type="text"><br><br>
+        ปีที่จบ<input type="number" step="1" value="2565">
+        GPA<input type="number" step="0.01"> <br><br>
+        สาขาที่สมัคร<select>
+                    <option value="1">IT</option>
+                    <option value="2">ITI</option>
+                    <option value="3">INE</option>
+                    <option value="4">INET</option>
+                </select> <br><br>
+        เหตุผลที่เลือกสาขา<textarea> </textarea><br><br></bt>
+    <h1>ส่วนที่ 3: ประวัติการศึกษา</h1>
+        ระดับการศึกษา <select>
+                        <option value="1">ประถมศึกษา</option>
+                        <option value="1">มัธยมต้น</option>
+                        <option value="1">มัธยมปลาย</option>
+                        <option value="1">ปวช</option>
+                        <option value="1">ปวส</option>
+                    </select> 
+        สถานศึกษา<input type="text"><br><br>
+        จังหวัด<input type="text"><br><br>
+        ปีที่เข้า <input type="number" step="1" value="2565">
+        ปีที่จบ<input type="number" step="1" value="2565"><br><br>
+        วุฒิที่ได้รับ
+        <select> 
+            <option value="1">ม.6</option>  
+            <option value="2">ปวช</option>  
+            <option value="3">ปวส</option>
+        </select>
+        GPA<input type="number" step="0.01"> <br><br><br>
+    <h1>ส่วนที่ 4:เอกสารแนบ</h1>
+        แนบไฟล์สำเนาบัตรประชาชน<input type="file"><br><br>
+        แนบไฟล์วุฒิการศึกษา (เช่น ปพ.1)<input type="file"><br><br><br>
+        ช่องติ๊กเพื่อยอมรับเงื่อนไข <input type="checkbox"> <br><br>
+        ปุ่ม Submit <input type="submit">
+        ปุ่ม Reset <input type="reset">
+    </form>  
+</body>
+</html>
